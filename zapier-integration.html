@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapier Template Integration</title>
+    
+    <!-- Zapier script and stylesheet -->
+    <script type="module" src="https://cdn.zapier.com/packages/partner-sdk/v0/zapier-elements/zapier-elements.esm.js"></script>
+    <link rel="stylesheet" href="https://cdn.zapier.com/packages/partner-sdk/v0/zapier-elements/zapier-elements.css"/>
+
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #666;
+        }
+        .zapier-container {
+            margin-top: 30px;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Zapier Integration</h1>
+    
+    <p>Through this page, you can easily access and use our Zapier templates to automate your workflows. Here are the instructions:</p>
+    
+    <ol>
+        <li>Browse the Zapier interface below to view available templates and workflows.</li>
+        <li>Choose a template that interests you or use the search bar to find specific functionalities.</li>
+        <li>Click on the template you want to use, and the system will guide you through the setup process.</li>
+        <li>Follow Zapier's instructions to connect necessary apps and services.</li>
+        <li>Once configured, your automated workflow will start running.</li>
+    </ol>
+
+    <p>If you encounter any issues during the process, please don't hesitate to contact our support team.</p>
+
+    <zapier-workflow
+      sign-up-email="email_of_your_user@example.com"
+      sign-up-first-name="first_name_of_your_user"
+      sign-up-last-name="last_name_of_your_user"
+      client-id="fHbWeP4GvZZQliqtLnv0qqci9kuIAYGoedSgsxKQ"
+      theme="light"
+      intro-copy-display="show"
+    ></zapier-workflow>
+
+    <p>Thank you for using our service! We hope these automation tools will enhance your productivity.</p>
+</body>
+</html>
